@@ -38,7 +38,7 @@ const Premium = () => {
         image: "https://example.com/your_logo",
         order_id: order_id,
         callback_url: BASE_URL + "/payment-success",
-        handler: verifyPremiumUser(response),
+        handler: verifyPremiumUser,
         prefill: {
           name: "Krishna Priya",
           email: "krishna.priyakp110@gmail.com",
